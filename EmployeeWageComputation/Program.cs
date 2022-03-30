@@ -15,6 +15,7 @@ namespace EmployeeWageComputation
             EmployeeWage.GetEmpWage();
             PartTimeEmployee.PartTimeWage();
             SwitchCase.DailyEmpWage();
+            MonthWages.MonthlyEmpWage();
             Console.ReadLine();
         }
     }
