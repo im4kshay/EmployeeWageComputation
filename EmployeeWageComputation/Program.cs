@@ -11,6 +11,7 @@ namespace EmployeeWageComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Empolyee Wage Computation Program\n");
+            EmpAttendance.GetEmpAttendance();
             Console.ReadLine();
         }
     }
