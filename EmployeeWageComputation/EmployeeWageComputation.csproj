@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="EmpAttendance.cs" />
     <Compile Include="EmployeeWage.cs" />
+    <Compile Include="EmpWageForMultipleCompanies.cs" />
     <Compile Include="MonthWages.cs" />
     <Compile Include="PartTimeEmployee.cs" />
     <Compile Include="Program.cs" />
