@@ -51,6 +51,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RefactorWithClassMethod.cs" />
+    <Compile Include="SaveTotalWageByCompany.cs" />
     <Compile Include="SwitchCase.cs" />
     <Compile Include="WageTillCondition.cs" />
   </ItemGroup>
