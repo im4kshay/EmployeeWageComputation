@@ -9,28 +9,27 @@ namespace EmployeeWageComputation
     class CompanyEmpWage
     {
         public string company;
-        public int emp_Wage_Per_Hr;
-        public int working_Days_Per_Month;
-        public int max_Hrs_Per_Month;
-        public int total_Emp_Wage;
+        public int empRatePerHour;
+        public int numOfWorkingDays;
+        public int maxHoursPerMonth;
+        public int totalEmpWage;
 
-        public CompanyEmpWage(string company, int emp_Wage_Per_Hr, int working_Days_Per_Month, int max_Hrs_Per_Month)
+        public CompanyEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
         {
             this.company = company;
-            this.emp_Wage_Per_Hr = emp_Wage_Per_Hr;
-            this.working_Days_Per_Month = working_Days_Per_Month;
-            this.max_Hrs_Per_Month = max_Hrs_Per_Month;
-
+            this.empRatePerHour = empRatePerHour;
+            this.numOfWorkingDays = numOfWorkingDays;
+            this.maxHoursPerMonth = maxHoursPerMonth;
         }
+
         public void setTotalEmpWage(int totalEmpWage)
         {
-            this.total_Emp_Wage = totalEmpWage;
+            this.totalEmpWage = totalEmpWage;
         }
 
         public string toString()
         {
-            return "Total Employee Wage for company : " + this.company + " is " + this.total_Emp_Wage + "\n";
-
+            return "Total Emp Wage for Company : " + this.company + " is :" + this.totalEmpWage + "\n";
         }
     }
 }
