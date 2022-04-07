@@ -46,8 +46,8 @@
     <Compile Include="CompanyEmpWage.cs" />
     <Compile Include="EmpAttendance.cs" />
     <Compile Include="EmployeeWage.cs" />
+    <Compile Include="EmpWageBuilderList.cs" />
     <Compile Include="EmpWageForMultipleCompanies.cs" />
-    <Compile Include="EmpWageBuilderArray.cs" />
     <Compile Include="MonthWages.cs" />
     <Compile Include="PartTimeEmployee.cs" />
     <Compile Include="Program.cs" />
