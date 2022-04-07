@@ -20,15 +20,17 @@ namespace EmployeeWageComputation
             this.emp_Wage_Per_Hr = emp_Wage_Per_Hr;
             this.working_Days_Per_Month = working_Days_Per_Month;
             this.max_Hrs_Per_Month = max_Hrs_Per_Month;
-        }
 
-        public void SetTotalEmpWage(int totalEmpWage)
+        }
+        public void setTotalEmpWage(int totalEmpWage)
         {
             this.total_Emp_Wage = totalEmpWage;
         }
-        public override string ToString()
+
+        public string toString()
         {
-            return "Total Employee Wage for company: " + company + " is: " + total_Emp_Wage + "\n";
+            return "Total Employee Wage for company : " + this.company + " is " + this.total_Emp_Wage + "\n";
+
         }
     }
 }
